@@ -36,9 +36,7 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
   
-    plugins: [
-      '~/plugins/localStorage.js',
-    ],
+
   
   
 
