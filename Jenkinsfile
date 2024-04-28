@@ -29,10 +29,10 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
+        stage('Start') {
             steps {
                 script {
-                    bat 'npm run deploy'
+                    bat 'npm run start'
                 }
             }
         }
